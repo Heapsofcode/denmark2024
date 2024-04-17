@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "GT America";
+    src: url(GT-America-Standard-Regular-Trial.woff2);
+}
+
+@font-face {
+    font-family: "GT America";
+    font-weight: bold;
+    src: url(GT-America-Standard-Bold-Trial.woff2);
+}

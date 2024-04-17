@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    width: 100vw;
+    font-family: "GT America";
+}
+
+h1 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+#top-bar-container {
+background-image: url("images/Vejlebridge.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+width: 100vw;
+height: 100vh;
+text-align: left;
+gap: 430px;
+}
+
+#heading-container {
+    text-align: left;
+}
+
+#top-bar-container h1 {
+    font-size: 12rem;
+    color: rgb(237, 237, 132);
+    margin: 0;
+    line-height: 10rem;
+}
+
+#nav-list-container {
+display: flex;
+justify-content: center;
+}
+
+#nav-list  {
+    font-size: 1.5rem;
+    display: flex;
+    gap: 8rem;
+    color: rgb(234, 225, 225);
+    }
+
+#nav-list li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.attraction-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.attraction-container {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 3rem;
+}
+
+.attraction-container img {
+    height: 300px;
+    width: 500px;
+    border-radius: 10%;
+}
+
+.attraction {
+    display: flex;
+    gap: 3rem;
+}
+
+.attraction-info {
+    text-align: center;
+}
+
+
+
+
+
+
+
