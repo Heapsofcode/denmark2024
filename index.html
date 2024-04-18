@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script
+      src="https://kit.fontawesome.com/822fb96ad1.js"
+      crossorigin="anonymous"
+    ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="fonts/fonts.css" />
@@ -15,54 +19,62 @@
       </div>
       <div id="nav-list-container">
         <ul id="nav-list">
-          <li>Main Attractions</li>
-          <li>Side Attractions</li>
+          <li><a href="#main-section">Main Attractions</a></li>
+          <li><a href="#big-box">Side Attractions</a></li>
           <li>Food Ideas</li>
         </ul>
       </div>
     </div>
 
-    <div class="attraction-info">
-      <h2>Main Attractions</h2>
-      <p>
-        Listed here are some of the main local attractions that I think you guys
-        would appreciate. Each section also contains a link to the official
-        websites so you can get some more details. We did visit Jelling on your
-        last visit Wendy and we are more than happy to revisit if Gordon would
-        be interested. The castle also contains a huge classic car collection
-        that I thought would be particularly interesting to Gordon, again there
-        are more details on the actual website.
-      </p>
+    <div class="section">
+      <div class="attraction-info">
+        <h2 id="main-section">Main Attractions</h2>
+        <p>
+          Listed here are some of the main local attractions that I think you
+          guys would appreciate. These things will take a good chunk of time in
+          a day and mostly require a ticket to enter or explore fully. Each
+          section also contains a link to the official websites so you can get
+          some more details. We did visit Jelling on your last visit Wendy and
+          we are more than happy to revisit if Gordon would be interested. The
+          castle also contains a huge classic car collection that I thought
+          would be particularly interesting to Gordon, again there are more
+          details on the actual website.
+        </p>
+      </div>
+
+      <div class="attraction-container">
+        <div class="attraction">
+          <img
+            src="images/HighRes_2017_LEGOHouse_preparations-scaled.jpg"
+            alt="Aerial view of Lego House - Billund"
+          />
+          <div class="attraction-info">
+            <h3>Lego House</h3>
+            <p>
+              Lego House is a 12,000-square metre building filled with 25
+              million Lego bricks in Billund, Denmark, located near Legoland and
+              the headquarters of The Lego Group. It is also known as Home of
+              the Brick with reference to Billund, where Lego originates.
+              Visitors can experience a variety of activities during their
+              visit, including physically and digitally building with Lego
+              bricks, programming robots and animating models. The centre's
+              visitor experience includes four experience zones, two exhibitions
+              and the Lego Museum, which showcases the history of the Lego brand
+              and company.
+            </p>
+            <a href="https://legohouse.com/en-gb/">Website</a>
+          </div>
+        </div>
+      </div>
+      <div class="arrow">
+        <a href=""><i class="fa-solid fa-circle-down"></i></a>
+      </div>
     </div>
 
     <div class="attraction-container">
       <div class="attraction">
-        <img
-          src="images/HighRes_2017_LEGOHouse_preparations-scaled.jpg"
-          alt="Aerial view of Lego House - Billund"
-        />
         <div class="attraction-info">
-          <h3>Lego House</h3>
-          <p>
-            Lego House is a 12,000-square metre building filled with 25 million
-            Lego bricks in Billund, Denmark, located near Legoland and the
-            headquarters of The Lego Group. It is also known as Home of the
-            Brick with reference to Billund, where Lego originates. Visitors can
-            experience a variety of activities during their visit, including
-            physically and digitally building with Lego bricks, programming
-            robots and animating models. The centre's visitor experience
-            includes four experience zones, two exhibitions and the Lego Museum,
-            which showcases the history of the Lego brand and company.
-          </p>
-          <a href="https://legohouse.com/en-gb/">click here</a>
-        </div>
-      </div>
-
-      <br />
-
-      <div class="attraction">
-        <div class="attraction-info">
-          <h3>Fyn Castle</h3>
+          <h3>Egeskov Castle</h3>
           <p>
             Egeskov is a Danish manor at Kværndrup south of Ringe on South Funen
             in Denmark . The castle, which is one of Europe's best-preserved
@@ -74,8 +86,6 @@
         </div>
         <img src="images/fyn castle.jpeg" alt="An image of Egeskov Castle" />
       </div>
-
-      <br />
 
       <div class="attraction">
         <img src="images/jelling.jpeg" alt="An image of Jelling mounds" />
@@ -94,53 +104,73 @@
       </div>
     </div>
 
-    <div class="attraction-container">
+    <div id="big-box">
       <div class="attractions-info">
-        <h2>Side Attractions</h2>
-        <p></p>
+        <h2 id="side-section">Side Attractions</h2>
+        <p>blah blah blah</p>
       </div>
 
-      <div class="attraction-one">
-        <img src="" alt="" />
-        <div class="attraction-one-info">
+      <div class="attraction-one box">
+        <div class="test">
           <h3>Deer park</h3>
-          <p>Blah blah blah..</p>
+          <p>
+            Forest Nørreskoven, on the north side of the Vejle Inlet is one of
+            the area's most visited forests. Here in the very versatile piece of
+            nature with large beech trees, you are invited to enjoy many outdoor
+            experiences. Enjoy a stroll in the deer park
+          </p>
           <a href="">click here</a>
         </div>
       </div>
 
-      <div class="attraction-two">
-        <div>
+      <div class="attraction-two box">
+        <div class="test">
           <h3>Fjordenshus</h3>
-          <p>Blah blah blah..</p>
+          <p>
+            Fjordenhus is Vejle's iconic building on the harbor. The
+            Danish-Icelandic artist Olafur Eliasson and his studio have designed
+            and is presenting new construction techniques and artworks.
+          </p>
           <a href="">click here</a>
         </div>
-        <img src="" alt="" />
       </div>
 
-      <div class="attraction-three">
-        <img src="" alt="" />
-        <div>
+      <div class="attraction-three box">
+        <div class="test">
           <h3>The Wave</h3>
-          <p>Blah blah blah..</p>
+          <p>
+            The Wave is a housing development by Skyttehusbugten in Vejle, which
+            is inspired by Jørn Utzon's opera house in Sydney and the hilly
+            landscape around Vejle Fjord. Henning Larsen Architects has designed
+            the building.
+          </p>
           <a href="">click here</a>
         </div>
       </div>
 
-      <div class="attraction-three">
-        <img src="" alt="" />
-        <div>
+      <div class="attraction-four box">
+        <div class="test">
           <h3>Vejle Town</h3>
-          <p>Blah blah blah..</p>
+          <p>
+            Vejle's main pedestrian street is almost a kilometre long. In the
+            pedestrian street, You will find charming shopping streets,
+            including excellent restaurants, trendy outdoor cafes. In Vejle, you
+            will find the perfect harmony between remaining old buildings and
+            new trendy architecture.
+          </p>
           <a href="">click here</a>
         </div>
       </div>
 
-      <div class="attraction-three">
-        <img src="" alt="" />
-        <div>
+      <div class="attraction-five box">
+        <div class="test">
           <h3>Park and Beach</h3>
-          <p>Blah blah blah..</p>
+          <p>
+            Skyttehushaven is on the northern side of Vejle Fjord. The nearby
+            garden is a popular meeting place for parties and concerts. Here you
+            have a beautiful view of the fjord with the majestic Vejlefjord
+            Bridge and Vejle's harbor front.
+          </p>
           <a href="">click here</a>
         </div>
       </div>
