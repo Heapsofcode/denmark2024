@@ -4,7 +4,7 @@ body {
     font-family: "GT America";
 }
 
-h1, h2 {
+h1, h2, h3 {
     padding: 0;
     border: 0;
     margin: 0;
@@ -18,6 +18,19 @@ ul {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    
+}
+
+p {
+    margin: 0;
+}
+
+a:hover {
+    color: orange !important;
+}
+
 #top-bar-container {
 background-image: url("images/Vejlebridge.jpg");
 background-repeat: no-repeat;
@@ -27,11 +40,11 @@ flex-direction: column;
 width: 100vw;
 height: 100vh;
 text-align: left;
-gap: 430px;
 }
 
 #heading-container {
     text-align: left;
+    margin-bottom: auto;
 }
 
 #top-bar-container h1 {
@@ -58,8 +71,16 @@ justify-content: center;
     list-style: none;
 }
 
+#nav-list a {
+    display: flex;
+    color: rgb(237, 237, 132);
+    padding-bottom: 2.5rem;
+}
+
 .arrow {
-    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: .5rem;
 }
 
 .section {
@@ -67,7 +88,60 @@ justify-content: center;
     height: 100vh;
     width: 100vw;
     flex-direction: column;
-    gap: 5rem;
+    background-color: rgb(244, 244, 144)
+    }
+
+ .section a {
+    color: rgb(64, 61, 61);
+ }   
+
+#second-section {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(64, 61, 61);
+}
+
+#second-section a {
+    color: rgb(244, 244, 144);
+}
+
+#second-section img {
+    height: 300px;
+    width: 500px;
+    border-radius: 10%;
+}
+
+.second-attraction {
+    display: flex;
+    gap: 3rem;
+    padding: 3rem;
+}
+
+.second-attraction-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.second-attraction-info h2 {
+    padding: 1rem;
+    font-size: 8rem;
+    color: rgb(237, 237, 132);
+    }
+
+.second-attraction-info p {
+    padding: 2rem;
+    color: rgb(237, 237, 132);
+}
+
+.second-attraction-info h3 {
+    font-size: 4rem;
+    color: rgb(237, 237, 132);
 }
 
 .attraction-info {
@@ -79,14 +153,26 @@ justify-content: center;
     }
 
     .attraction-info h2 {
+        padding: 1rem;
+        font-size: 7rem;
+        color: rgb(64, 61, 61);
+        }
+
+    .attraction-info p {
         padding: 2rem;
+        color: rgb(64, 61, 61);
+    }
+
+    .attraction-info h3 {
+        font-size: 4rem;
+        color: rgb(64, 61, 61);
     }
 
 .attraction-container {
     display: flex;
     flex-direction: column;
-    padding: 3rem;
-    gap: 3rem;
+    height: 100%;
+
 }
 
 .attraction-container img {
@@ -98,6 +184,8 @@ justify-content: center;
 .attraction {
     display: flex;
     gap: 3rem;
+    padding: 3rem;
+    margin-bottom: auto;
 }
 
 .attraction-info {
@@ -112,20 +200,20 @@ justify-content: center;
     color: rgb(217, 217, 217);
 }
 
+.attractions-info p {
+    padding: 0 12rem;
+}
+
 .box {
-    height: 100vh;
     width: 20vw;
     display: flex;
     flex-direction: column;
-    
-    justify-content: flex-start;
     text-align: center;
    padding: 1rem;
 }
 
 .attractions-info {
     position: absolute; 
-    top: 2rem;
     left: 0; 
     right: 0; 
     margin-left: auto; 
@@ -136,15 +224,34 @@ justify-content: center;
 }
 
 .test {
-  padding-top: 30rem;
+  padding-top: 28rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.test h3 {
+    padding-bottom: 1rem;
+}
+
+.test p {
+    margin-bottom: auto;
+}
+
+.test a {
+    width: fit-content;
+    padding-bottom: 2rem;
+    color: rgb(244, 244, 144);
 }
 
 .attractions-info h2 {
-    font-size: 10rem;
+    font-size: 8rem;
 }
 
 .attractions-info p {
     font-size: 2rem;
+    margin: 0;
 }
 
 .attraction-one {
@@ -183,5 +290,87 @@ background-position: 20%;
     background-size: cover;
 }
 
+#food-ideas {
+    position: relative;
+}
 
+#big-food-box h3 {
+    font-size: 6rem;
+}
 
+#big-food-box h2 {
+    padding: 2rem;
+}
+
+#big-food-box {
+    height: 200vh;
+    width: 100vw;
+    position: relative;
+    color: rgb(237, 237, 132);
+}
+
+.restaurant {
+    width: 100vw;
+    height: 50vh;
+}
+
+.big-restaurant {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#food-info {
+    font-size: 6rem;
+    color: rgb(237, 237, 132)
+}
+
+.restaurant-text {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   padding-top: 15rem;
+   }
+
+   .restaurant-text a {
+    color: rgb(237, 237, 132);
+   }
+
+.big-restaurant-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 25rem;
+}
+
+.big-restaurant-text a {
+    color: rgb(237, 237, 132);
+   }
+
+.restaurant-tortilla {
+    background-image: url(images/tortillaflats.jpeg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+.restaurant-conrads {
+background-image: url(images/conrads.webp);
+background-position: 50%;
+background-size: 50%;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.restaurant-iza {
+background-image: url(images/iza.webp);
+background-position-y: 65%;
+background-size: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.hover-yellow a:hover {
+
+}
