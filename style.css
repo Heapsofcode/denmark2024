@@ -539,4 +539,8 @@ background-size: cover;
         align-items: flex-end;
         padding-bottom: 4rem;
      }
+
+     .restaurant-tortilla {
+        background-position-x: 50%;
+     }
 }
